@@ -1,9 +1,9 @@
 <?php 
 public function image()
     {
-        $image = "https://testadmin.goubba.com/storage/goubba_card/vysvfVXzrH8on1MUsyp3PAEEbIRpfy8En1KqHwhA.jpg";
-//        $image = "https://images.unsplash.com/photo-1516071351822-ae6558a8bb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
-//        $image = "https://cdn.reloadly.com/giftcards/f5ed161c-7dc5-4607-a722-709ccde22f80.jpg";
+     
+        $image = "https://images.unsplash.com/photo-1516071351822-ae6558a8bb5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80";
+
         $pin = "pin.png";
         $pin_to_png = imagecreatefrompng($pin);
         $image_ext = Storage::mimeType($image);
